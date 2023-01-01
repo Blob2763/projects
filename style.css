@@ -1,0 +1,26 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+h1 {
+    font-family: 'Inter var';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    text-align: center;
+    color: #ffb300;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
